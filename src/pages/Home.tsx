@@ -11,32 +11,32 @@ export default function Home() {
         <p className="text-xl">I'm a developer passionate about creating web applications.</p>
       </div>
       
-      <div className="social-icons flex gap-5rem">
-        <a 
-          href="https://github.com/yourusername" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="text-white hover:text-blue-300 transition-colors duration-300"
-        >
-          <FaGithub size={50} />
-        </a>
-        <a 
-          href="https://linkedin.com/in/yourusername" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="text-white hover:text-blue-300 transition-colors duration-300"
-        >
-          <FaLinkedin size={50} />
-        </a>
-        <a 
-          href="https://stackoverflow.com/users/youruserid" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="text-white hover:text-blue-300 transition-colors duration-300"
-        >
-          <FaStackOverflow size={50} />
-        </a>
-      </div>
+      <div className="social-icons">
+  <a 
+    href="https://github.com/Alioune-Ndoye" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="social-link"
+  >
+    <FaGithub size={50} />
+  </a>
+  <a 
+    href="https://www.linkedin.com/feed/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="social-link"
+  >
+    <FaLinkedin size={50} />
+  </a>
+  <a 
+    href="https://stackoverflow.com/users/13218315/ali-ndoye" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="social-link"
+  >
+    <FaStackOverflow size={50} />
+  </a>
+</div>
     </section>
-  )
+  );
 }

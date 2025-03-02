@@ -16,6 +16,45 @@ export default function Projects() {
       imageUrl: '/path-to-project-image-1.jpg' // Update with actual image path
     },
     // Add more projects with image URLs
+    {
+      id: 1,
+      title: 'Project 1',
+      description: 'A sample project description',
+      url: '#',
+      imageUrl: '/path-to-project-image-1.jpg' // Update with actual image path
+    },
+
+    {
+      id: 1,
+      title: 'Project 1',
+      description: 'A sample project description',
+      url: '#',
+      imageUrl: '/path-to-project-image-1.jpg' // Update with actual image path
+    },
+
+    {
+      id: 1,
+      title: 'Project 1',
+      description: 'A sample project description',
+      url: '#',
+      imageUrl: '/path-to-project-image-1.jpg' // Update with actual image path
+    },
+
+    {
+      id: 1,
+      title: 'Project 1',
+      description: 'A sample project description',
+      url: '#',
+      imageUrl: '/path-to-project-image-1.jpg' // Update with actual image path
+    },
+
+    {
+      id: 1,
+      title: 'Project 1',
+      description: 'A sample project description',
+      url: '#',
+      imageUrl: '/path-to-project-image-1.jpg' // Update with actual image path
+    },
   ];
 
   return (

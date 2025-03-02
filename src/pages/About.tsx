@@ -13,18 +13,6 @@ export default function About() {
             contributing to open-source projects, or learning about UX design.
           </p>
         </div>
-        
-        <div className="skills">
-          <h3>Technical Skills</h3>
-          <ul>
-            <li>JavaScript/TypeScript</li>
-            <li>React & Next.js</li>
-            <li>Node.js</li>
-            <li>Python</li>
-            <li>SQL/NoSQL Databases</li>
-          </ul>
-          <div className="skill-item">Skill Name</div>
-        </div>
         </div>
       </section>
     )
