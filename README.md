@@ -21,8 +21,8 @@ Clone the repository:
 
 bash
 Copy
-git clone git@github.com:your-username/react-portfolio-vite-eslint.git
-cd react-portfolio-vite-eslint
+git clone git@github.com:Alioune-Ndoye/React-Portfolio.git
+cd React-Portfolio
 Install dependencies:
 
 bash
