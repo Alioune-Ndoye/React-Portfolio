@@ -144,25 +144,49 @@ h2 {
 .skill-item:hover {
   transform: translateY(-3px);
 }
-
 /* Projects Page */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr; /* Single column on small screens */
   gap: 2rem;
   margin-top: 2rem;
+  justify-content: center; /* Center the grid content */
+  padding: 0 1rem; /* Add padding for small screens */
+}
+
+@media (min-width: 600px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    justify-items: center; /* Center the items in each column */
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on large screens */
+    justify-items: center; /* Center the cards */
+  }
 }
 
 .project-card {
   background-color: white;
   border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 2rem; /* Increased padding for larger cards */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* More prominent shadow */
   transition: transform 0.3s ease;
+  width: 100%; /* Ensure cards take full width of their grid cell */
+  max-width: 400px; /* Limit the width of each card */
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px); /* Increased hover effect */
+}
+
+.project-card img {
+  width: 100%; /* Make the image take full width of the card */
+  height: 250px; /* Adjust the height for a better aspect ratio */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border-radius: 8px; /* Rounded corners for the image */
 }
 
 .project-card h3 {
@@ -173,7 +197,7 @@ h2 {
 .project-card a {
   display: inline-block;
   margin-top: 1rem;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.25rem; /* Increased padding for the button */
   background-color: var(--primary-color);
   color: white;
   text-decoration: none;
@@ -184,6 +208,8 @@ h2 {
 .project-card a:hover {
   background-color: var(--secondary-color);
 }
+
+
 
 /* Contact Page */
 .contact-form {
