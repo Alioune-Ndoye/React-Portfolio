@@ -112,6 +112,8 @@ Add your assets like images, CV, and other personal information.
 🧑‍🤝‍🧑 Contributing
 We welcome contributions! If you’d like to improve this template, feel free to fork the repository and submit a pull request.
 
+Netifly link: https://alioune-ndoye.netlify.app/
+
 Here’s how you can contribute:
 
 Fork this repository.
