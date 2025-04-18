@@ -7,7 +7,7 @@ export default function About() {
         {/* Image Section */}
         <div className="avatar">
           <img 
-            src="/images/avatar.jpg" 
+            src="/images/ali.jpeg" 
             alt="Alioune Ndoye" 
             style={{
               width: "150px",
