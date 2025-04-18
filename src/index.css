@@ -20,6 +20,25 @@ body {
   background-color: var(--light-color);
 }
 
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.15),
+    rgba(0, 0, 0, 0.15) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  z-index: -1;
+  pointer-events: none;
+}
+
+
 /* Navbar Styles */
 nav {
   background-color: white;
