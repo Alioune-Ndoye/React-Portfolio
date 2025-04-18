@@ -29,6 +29,9 @@ export default function About() {
             When I'm not coding, you can find me exploring new technologies,
             contributing to open-source projects, or learning about UX design.
           </p>
+          <p>
+          I like backend work and enjoy building powerful APIs, managing databases, and making things run smoothly under the hood.
+          </p>
         </div>
 
       </div>
